@@ -1,0 +1,356 @@
+*
+{
+    margin:0;
+    padding:0;
+    /* color:aliceblue; */
+   
+  
+
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+.span1
+{
+    color:blueviolet;
+}
+
+.span2
+{
+    color:orange;
+}
+.navbar
+{
+    display: flex;
+    background-color: rgb(10, 10, 53);
+    align-items: center;
+
+    justify-content:space-around;
+    height:80px;
+    width:100%;
+    position: fixed;
+   
+}
+
+
+
+.logo
+{
+
+   font-size: 40px;
+    padding:10px 40px;
+
+   
+}
+
+.navbar ul li
+{   font-size:20px;
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 40px;
+  
+}
+.navbar ul li a:hover
+{
+    color:burlywood;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.search-box
+{   position: relative;
+    
+    display:flex;
+    color:aliceblue;
+    border:2px solid white;
+    border-radius: 10px;
+    padding:10px 20px;
+    
+}
+
+.search-box:hover
+{
+    background-color: rgb(241, 228, 228,0.1);
+    border:2px solid rgb(0, 213, 255);
+    color:black;
+}
+
+.search-icon
+{   
+   margin-left:100px;
+
+}
+
+.class-1
+{  
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+     url("bg.jpg");
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.para h2
+{
+    font-size: 50px;
+}
+
+.para
+{   position: relative;
+    color:aliceblue;
+   
+    top:200px;
+    left:100px;
+    width:400px;
+    height:500px;
+  
+}
+
+.class-2
+{
+  
+    height:100vh;
+    width:100%;
+  
+   
+}
+
+.package-1
+{
+    display:flex;
+    margin-top: 100px;
+    margin-left:70px;
+}
+
+.london
+{
+    height:300px;
+    width:300px;
+    background-image: url("london.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.loc-price1
+{
+    display: flex;
+    
+}
+.p1 
+{
+    margin-top: 20px;
+    height:20px;
+    width:100px;
+    background-color: blue;
+    margin-left: 140px;
+    border-radius: 5px;
+}
+.london-text h4
+{
+   
+    margin-top: 20px;
+}
+.new-york
+{
+    height:300px;
+    width:300px;
+    margin-left: 50px;
+    border:2px solid black;
+    background-image: url("new-york.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+}
+.new-york-text h4
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+.dubai
+{
+    height:300px;
+    width:300px;
+    margin-left: 50px;
+    border:2px solid black;
+    background-image: url("dubai.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+}
+
+.dubai-text h4
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.australia
+{
+    height:300px;
+    width:300px;
+    margin-left: 50px;
+    border:2px solid black;
+    background-image: url("australia.webp");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+}
+
+.australia-text h4
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.address
+{
+    display:flex;
+}
+
+.phone 
+{
+    display:flex;
+}
+
+.email
+{
+    display:flex;
+}
+
+.Contact-Us i{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 50%;
+
+    border:8px solid white;
+}
+
+.Contact-Us
+{  
+    height:600px;
+    width:100%;
+    color:aliceblue;
+    background-color:#0F1111;
+}
+
+
+
+.address-types
+{
+    margin-left:20px;
+    margin-top: 50px;
+    width:255.5px;
+}
+
+.address
+{
+    margin-bottom: 20px;
+}
+
+.address-text
+{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.phone
+{
+    margin-bottom: 20px;
+}
+
+.phone-text
+{
+    margin-left: 20px;
+}
+
+.email
+{
+    margin-bottom: 20px;
+}
+.email-text
+{
+    margin-left: 20px;
+}
+ h2
+{   padding-top: 50px; 
+    font-size: 30px;
+    text-align: center;
+    word-spacing:5px;
+   
+}
+.Contact-Us-1
+{
+    display: flex;
+}
+
+.form
+{
+    margin-top: 40px;
+    margin-left:600px;
+    height: 400px;
+    width:400px;
+    color:aliceblue;
+    background-color:rgb(17, 15, 15);
+    border: 2px solid white;
+    padding-left: 70px;
+}
+.form:hover
+{
+    background-image: linear-gradient(rgb(16, 16, 16),rgb(33, 32, 32));
+}
+
+
+form
+{
+    margin-top: 30px;
+}
+button
+{
+    height:25px;
+    width:70px;
+    margin-left: 60px;
+    color:#0F1111
+}
+
+button:hover
+{
+    background-color: aqua;
+}
+
+.form h3
+{
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+footer
+{
+    background-color: #0F1111;
+    height: 100px;
+}
+.copyright p
+{
+    text-align: center;
+    height: 30px;
+    color:aliceblue;
+    background-color:rgb(9,9,9);
+    font-size: 18px;
+    align-items: center;
+}
+.copyright p:hover 
+{
+    color:black;
+    background-color:darkgrey;
+}
